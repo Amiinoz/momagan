@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <g id="front__page-border" fill="none">
+    <path d="M0,0H1920V1080H0Z" stroke="none"/>
+    <path d="M 30 30 L 30 1050 L 1890 1050 L 1890 30 L 30 30 M 0 0 L 1920 0 L 1920 1080 L 0 1080 L 0 0 Z" stroke="none" fill="#fffffa"/>
+  </g>
+</svg>

@@ -155,7 +155,7 @@ img {
 }
 
 .home__parallax-img1 {
-  background-image: url("/assets/img/imgm1.png");
+  background-image: url("/src/client/images/background_img.svg");
   z-index: var(--z-normal);
 }
 
@@ -259,7 +259,7 @@ img {
   border-radius: .5rem;
 }
 
-/* media queries */
+media quer
 @media screen and (min-width: 760px) {
   .nav {
     height: 4rem;
