@@ -1,19 +1,19 @@
-/*===== GOGGLE FONTS =====*/
+// fonts
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-/*===== VARIABLES SCSS =====*/
+// variables scss
 $header-height: 3rem;
 
-/*===== VARIABLES CSS =====*/
+// variables css
 
-/*=== Colores ===*/
+// colors
 :root{
     --first-color: #0396A6;
     --dark-color: #000;
     --white-color: #F2F2F2;
 }
 
-/*=== Fuente y tipografia ===*/
+// typography
 :root{
     --body-font: 'Open Sans', sans-serif;
 
@@ -28,7 +28,7 @@ $header-height: 3rem;
     }
 }
 
-/*=== z index ===*/
+// z-index
 :root{
     --z-back: -10;
     --z-normal: 1;
@@ -37,7 +37,7 @@ $header-height: 3rem;
     --z-modal: 1000;
 }
 
-/*===== BASE =====*/
+// base
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -63,7 +63,8 @@ img{
     max-width: 100%;
     height: auto;
 }
-/*===== LAYOUT =====*/
+
+// layout
 .bd-grid{
     max-width: 1200px;
     margin-left: 1rem;
@@ -78,7 +79,7 @@ img{
     background-color: transparent;
     z-index: var(--z-modal);
 }
-/*===== NAVBAR =====*/
+// navbar
 .nav{
     height: $header-height;
     display: flex;
@@ -115,12 +116,12 @@ img{
         cursor: pointer;
     }
 }
-/*=== Show menu ===*/
+// show menu
 .show{
     top: $header-height;
 }
 
-/*===== HOME =====*/
+// home
 .home{
     height: 100vh;
     overflow: hidden;
@@ -135,19 +136,19 @@ img{
         background-position: center;
 
         &-img1{
-            background-image: url('/assets/img/imgm1.png');
+            background-image: url('/src/client/images/img1.png');
             z-index: var(--z-normal);
         }
         &-img2{
-            background-image: url('/assets/img/imgm2.png');
+            background-image: url('/src/client/images/img1.png');
             z-index: var(--z-tooltip);
         }
         &-img3{
-            background-image: url('/assets/img/imgm3.png');
+            background-image: url('/src/client/images/img1.png');
             z-index: var(--z-fixed);
         }
         &-img4{
-            background-image: url('/assets/img/imgm4.png');
+            background-image: url('/src/client/images/img1.png');
             z-index: var(--z-fixed);
         }
     }
@@ -185,7 +186,7 @@ img{
     }
 }
 
-/*===== SECTION =====*/
+// section
 .l-section{
     background-color: var(--dark-color);
 }
@@ -217,7 +218,7 @@ img{
 
 }
 
-/*===== MEDIA QUERIES =====*/
+// media quires
 @media screen and(min-width: 760px){
     .nav{
         height: $header-height + 1rem;
