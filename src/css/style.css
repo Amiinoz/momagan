@@ -1,15 +1,16 @@
-/* fonts */
+/* // fonts */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-/*===== VARIABLES SCSS =====*/
-/*===== VARIABLES CSS =====*/
-/*=== Colores ===*/
+
+/* // variables  */
+/* // variables css */
+/* // colors  */
 :root {
   --first-color: #0396A6;
   --dark-color: #000;
   --white-color: #F2F2F2;
 }
 
-/* typography */
+/* // typography */
 :root {
   --body-font: 'Open Sans', sans-serif;
   --biggest-font-size: 3.5rem;
@@ -25,7 +26,7 @@
   }
 }
 
-/* zindex */
+/* // z-index */
 :root {
   --z-back: -10;
   --z-normal: 1;
@@ -34,7 +35,7 @@
   --z-modal: 1000;
 }
 
-/* base */
+/* // base */
 *, ::before, ::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -68,7 +69,7 @@ img {
   height: auto;
 }
 
-/* layout */
+/* // layout */
 .bd-grid {
   max-width: 1200px;
   margin-left: 1rem;
@@ -84,7 +85,7 @@ img {
   z-index: var(--z-modal);
 }
 
-/* nav */
+/* // navbar */
 .nav {
   height: 3rem;
   display: -webkit-box;
@@ -133,12 +134,12 @@ img {
   cursor: pointer;
 }
 
-/* show menu  */
+/* // show menu */
 .show {
   top: 3rem;
 }
 
-/* home */
+/* // home */
 .home {
   height: 100vh;
   overflow: hidden;
@@ -155,7 +156,7 @@ img {
 }
 
 .home__parallax-img1 {
-  background-image: url("/src/client/images/background_img.svg");
+  background-image: url("/assets/img/imgm1.png");
   z-index: var(--z-normal);
 }
 
@@ -217,7 +218,7 @@ img {
   color: var(--white-color);
 }
 
-/* section  */
+/* // section */
 .l-section {
   background-color: var(--dark-color);
 }
@@ -259,7 +260,7 @@ img {
   border-radius: .5rem;
 }
 
-media quer
+/* // media quires */
 @media screen and (min-width: 760px) {
   .nav {
     height: 4rem;
