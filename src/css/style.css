@@ -116,8 +116,11 @@ img {
   }
 }
 
-.nav__logo {
+.nav__logo img{
   color: var(--white-color);
+
+  justify-content: start;
+  margin-right: 45px;
 }
 
 .nav__item {
@@ -153,20 +156,21 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: 15px solid snow;
 }
 
 .home__parallax-img1 {
-  background-image: url("/assets/img/imgm1.png");
+  background-image: url("/src/images/background_img.svg");
   z-index: var(--z-normal);
 }
 
 .home__parallax-img2 {
-  background-image: url("/assets/img/imgm2.png");
+  background-image: url("/assets/img/imgm.png");
   z-index: var(--z-tooltip);
 }
 
 .home__parallax-img3 {
-  background-image: url("/assets/img/imgm3.png");
+  background-image: url("/assets/img/imgm.png");
   z-index: var(--z-fixed);
 }
 
@@ -217,10 +221,10 @@ img {
 .home__scroll .bx-mouse {
   color: var(--white-color);
 }
-
 /* // section */
 .l-section {
   background-color: var(--dark-color);
+  border:  15px solid snow;
 }
 
 .section {

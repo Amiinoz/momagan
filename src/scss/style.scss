@@ -101,8 +101,9 @@ img{
             transition: .3s;
         }
     }
-    &__logo{
+    &__logo img{
         color: var(--white-color);
+        justify-content: left;
     }
     &__item{
         margin-bottom: 2rem;
