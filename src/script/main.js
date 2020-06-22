@@ -75,3 +75,4 @@ sr.reveal(".section__data", { origin: "left", distance: "70px" });
 
 // images
 sr.reveal(".section__img", { origin: "left", distance: "90px", delay: 200 });
+

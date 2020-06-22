@@ -147,6 +147,7 @@ img {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  background-color: black;
 }
 
 .home__parallax {
@@ -160,7 +161,7 @@ img {
 }
 
 .home__parallax-img1 {
-  background-image: url("/src/images/background_img.svg");
+  /* background-image: url("/src/images/background_img.svg"); */
   z-index: var(--z-normal);
 }
 
